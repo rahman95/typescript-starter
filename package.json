@@ -1,0 +1,33 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "A light-weight starter for new TypeScript projects",
+  "main": "index.js",
+  "repository": "git@github.com:rahman95/typescript-starter.git",
+  "author": "Rahman Younus <rahman_95@live.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc-watch",
+    "lint": "eslint . --ext .js,.ts --ignore-path .gitignore",
+    "test": "echo \"Error: no tests installed\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9"
+  }
+}
